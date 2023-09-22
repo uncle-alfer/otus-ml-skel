@@ -6,6 +6,7 @@ __all__ = ["embarked_imputer", "fill_embarked"]
 
 # make age filled
 
+
 def embarked_imputer() -> SimpleImputer:
     return SimpleImputer(strategy="most_frequent")
 
