@@ -19,5 +19,5 @@ def is_alone(df: pandas.DataFrame) -> pandas.Series:
     )
 
 
-def test_func():
+def tst_func():
     pass
