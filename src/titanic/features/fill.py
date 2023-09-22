@@ -4,7 +4,7 @@ from sklearn.impute import SimpleImputer
 
 __all__ = ["embarked_imputer", "fill_embarked"]
 
-# TODO make age filled
+# make age filled
 
 def embarked_imputer() -> SimpleImputer:
     return SimpleImputer(strategy="most_frequent")
